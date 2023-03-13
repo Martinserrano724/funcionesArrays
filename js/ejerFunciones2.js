@@ -17,7 +17,7 @@ const mayusculaMinuscula =function (letra)
      
 }
 const controlar=function(frase){
-    if (contadorMayuscula == 0 && contadorMinuscula > 0 ) {
+    if (contadorMayuscula == 0 && contadorMinuscula > 0  ) {
         document.write( `La cadena: <b>${frase}</b> es todo minuscula`);
     }
     else if (contadorMayuscula > 0 && contadorMinuscula == 0) {
@@ -33,7 +33,10 @@ const controlar=function(frase){
 let frase = prompt('ingresa una frase ');
 for(let index = 0; index < frase.length; index++)
 {
-    mayusculaMinuscula(frase[index]);     
+    if(frase[index] != ' '){
+        mayusculaMinuscula(frase[index]);    
+    }
+    
 }
 controlar(frase);
 
