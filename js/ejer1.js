@@ -18,11 +18,12 @@ let meses = [
 ];
 
 for (let index = 0; index < meses.length; index++) {
-  document.write(`<ul class="lista>
-    <li ">
+  document.write(`
+  <ul class='lista'>
+    <li>
     ${index+1} -${meses[index]}
     </li>
-    </ul>
+  </ul>
    
     `);
 }
