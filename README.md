@@ -1,7 +1,7 @@
 # funcionesArrays
 
 
-Author: Martin Serrano
+# Author: Martin Serrano
 
 Requisitos👀
 Tener una PC
@@ -15,7 +15,7 @@ Pagina principal(index)
 Una pagin por ejercicio
 Dettalle
 
-#Arrays
+# Arrays
 
 Dificultad:  🟢
 1- Crear un array llamado meses y que almacene el nombre de los doce meses del año. Mostrar por pantalla en forma de lista  los doce nombres del arreglo.
@@ -35,7 +35,7 @@ Dificultad:  🟢🟡🔴
 
 
 
-Funciones
+# Funciones
 Dificultad:  🟢
 1- Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es par o impar. Mostrar por pantalla el resultado devuelto por la función.
 
